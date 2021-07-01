@@ -60,8 +60,8 @@ Adicionalmente será necesario que crees desde psql una base de datos llamada do
 - [ ] Sequelize - Postgres
 
 
-## Licencia 📄
+## Licencia 📄 
 
-Este proyecto fue creado con fines educativos, no tiene fines de lucro - sientete libre de usarlo
+#### Este proyecto fue creado con fines educativos, no tiene fines de lucro - sientete libre de usarlo
 ---
 ⌨️ con ❤️ por [Cristian Hernandez](https://github.com/cristianhd) 😊
