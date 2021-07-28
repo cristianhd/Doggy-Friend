@@ -1,54 +1,50 @@
-# React Native EXPO
-
-In this project you will be able to create tasks, in addition to being able to select the completed ones and obtain a list of them.
-
+# Dogs APP
+En esta aplicación podrás ver distintas razas de perros junto con los detalles de las mismas utilizando la api externa [the dog api](https://thedogapi.com/) y a partir de ella poder, entre otras cosas:
+  - Buscar razas de perros
+  - Filtrarlos / Ordenarlos
+  - Agregar nuevas razas
+ 
+![doggy](https://user-images.githubusercontent.com/52827841/124139177-bf3a1300-da5d-11eb-9438-badc4a063edc.PNG)
+## - Home
+![home](https://user-images.githubusercontent.com/52827841/124139799-52734880-da5e-11eb-9402-87ea6aa92143.PNG)
+## - Detalle de raza
+![detalle](https://user-images.githubusercontent.com/52827841/124140028-877f9b00-da5e-11eb-858e-f1b55c58da16.PNG)
+## - Crear una raza
+![create](https://user-images.githubusercontent.com/52827841/124140417-d7f6f880-da5e-11eb-8d43-aec002f8c6bf.PNG)
 ## Comenzando 🚀
-
-_These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes._
-
-
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+__IMPORTANTE__: Para poder utilizar esta API es necesario crear una cuenta para obtener una API Key que deberá ser incluida en el archivo .env
+El archivo `.env` (carpeta api) debe tener la siguiente forma:
+```
+DB_USER=usuariodepostgres
+DB_PASSWORD=passwordDePostgres
+DB_HOST=localhost
+API_KEY=tu API key
+DB_NAME=dogs
+PORT=3001
+```
+Adicionalmente será necesario que crees desde psql una base de datos llamada dogs
 ### Instalación 🔧
 
-1. Clone the repo
+1. Clona el repo
    ```sh
-   git clone https://github.com/cristianhd/todochallenge.git
+   git clone https://github.com/cristianhd/Doggy-Friend.git
    ```
-2. Install all package
+2. Instala los paquetes
    ```sh
    npm install
    ```
-3. run the app
+3. Inicia tanto el back (carpeta api), como el front (carpeta client)
    ```sh
-   npm start (EXPO Web),
-   npm android: (Android)
-   npm ios: (IOS)  
+   npm start
    ```
   
-## Dependencies 🛠️
-
--typescript to type-check our components exposed properties.
--react-navigation navigation library.
--redux for state management.
--redux-persist as persistance layer.
--redux-thunk to dispatch asynchronous actions.
--react-hook-form for control form (add task)
--styled-components to give style the app
-
-## - Home
-![Screenshot_1627390822](https://user-images.githubusercontent.com/52827841/127158994-98152356-9841-4bb8-aa26-03ad14f78867.png)
-
-## - Complete
-![Screenshot_1627392216](https://user-images.githubusercontent.com/52827841/127161169-03fc6208-0fb3-45d7-87ff-d733166ceb6b.png)
-
-## - Uncomplete
-![Screenshot_1627392218](https://user-images.githubusercontent.com/52827841/127161204-e5187540-6fb9-4955-85a3-e945b3ad3387.png)
-
-## - AddTask
-![Screenshot_1627392248](https://user-images.githubusercontent.com/52827841/127161235-f9d6854c-3846-4821-adfd-99115e6163f6.png)
-
-
-## License 📄 
-
-#### This project was created for educational purposes, it is not for profit - feel free to use it
+## Construido con 🛠️
+- [ ] React
+- [ ] Redux
+- [ ] Express
+- [ ] Sequelize - Postgres
+## Licencia 📄 
+#### Este proyecto fue creado con fines educativos, no tiene fines de lucro - sientete libre de usarlo
 ---
 ⌨️ con ❤️ por [Cristian Hernandez](https://github.com/cristianhd) 😊
